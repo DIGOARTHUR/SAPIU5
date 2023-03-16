@@ -125,8 +125,8 @@ apoiado na linguagem JavaScript. O Backend (API) foi desenvolvido utilizando o N
 
 ### API
 <a href="https://nodejs.org/en"> ![Alt ou título da imagem](https://img.shields.io/badge/-NodeJS-/?logo=Node.JS&logoColor=white&color=green)<a/> 
-  * [`Express`](https://www.treinaweb.com.br/blog/o-que-e-mvc) (Uso de componentes)
-        * [`Métodos HTTP`](https://medium.com/swlh/restful-api-design-get-post-put-patch-delete-a-walkthrough-with-javascripts-fetch-api-e37a8416e2a0) (POST, GET, DELETE)
+  * [`Express`](https://www.treinaweb.com.br/blog/o-que-e-mvc) (Framework para o NodeJS)
+       * [`Métodos HTTP`](https://medium.com/swlh/restful-api-design-get-post-put-patch-delete-a-walkthrough-with-javascripts-fetch-api-e37a8416e2a0) (POST, GET, DELETE)
        
   
  ### Versionameto
