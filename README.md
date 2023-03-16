@@ -1,3 +1,44 @@
+<!--# Como inicializar um Projeto SAP UI5
+
+- Abra uma pasta e acesse o GitBash
+
+git clone https://github.com/Daancustodio/sapui5-yeoman-generetor.git
+- acesse o arquivo do clone
+
+### criar prototipo
+
+1- yarn global add yo
+
+2- npm link
+
+3- yarn
+
+4 - yo sapui-5-webapp
+
+cd ..
+
+git clone https://github.com/Daancustodio/ui5-cli.git
+- acesse o arquivo do clone
+- 
+### criar pagina
+1- yarn
+
+2- npm link
+
+3- yarn global add gluegun
+
+4- cd ..
+
+### executar criação de pagina
+1- pasta do projeto
+
+2- ui5 g p <nome-da-page>
+
+-->
+
+
+
+
 # SAP UI5 CRUD - Teste BRGAAP Corporation [Dev. Web - 2022]  <img  alt="skills"  width="40" height="40" src="https://user-images.githubusercontent.com/59892368/150566676-3b300829-6492-48f7-add9-0b0ebe82358d.png">
 
 
@@ -10,20 +51,19 @@
     
 
 <p align="center">
-  <a href="https://github.com/DIGOARTHUR/SAPIU5/blob/master/README.md#--sobre-a-aplicação-">Sobre a aplicação</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
-  <a href="https://github.com/DIGOARTHUR/SAPIU5/blob/master/README.md#stacks-1"> Stacks</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
-  <a href="https://github.com/DIGOARTHUR/SAPIU5/blob/master/README.md#--interfaces-"> Interfaces</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
-  <a href="https://github.com/DIGOARTHUR/SAPIU5/blob/master/README.md#--api-">API</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="https://github.com/DIGOARTHUR/SAPIU5-CRUD#--sobre-a-aplicação-">Sobre a aplicação</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="https://github.com/DIGOARTHUR/SAPIU5-CRUD#--interfaces-"> Interfaces</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="https://github.com/DIGOARTHUR/SAPIU5-CRUD#--api-">API</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
 
  
 
 </p> 
 
 <p align="center">
-   <a href="https://github.com/DIGOARTHUR/SAPIU5-CRUD/blob/master/README.md#-pontos-principais-">Pontos Principais</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
- <a href="https://github.com/DIGOARTHUR/SAPIU5/blob/master/README.md#-por-quê--">Por quê?</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
- <a href="https://github.com/DIGOARTHUR/SAPIU5/blob/master/README.md#-algumas-observações">Algumas observações</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
- <a href="https://github.com/DIGOARTHUR/SAPIU5-CRUD#-rodando-a-aplicação">Rodando a Aplicação</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="https://github.com/DIGOARTHUR/SAPIU5-CRUD#-stacks-">Stacks</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="https://github.com/DIGOARTHUR/SAPIU5-CRUD#-rodando-a-aplicação">Rodando a Aplicação</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="https://github.com/DIGOARTHUR/SAPIU5-CRUD#-algumas-observações">Observações</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+   <a href="https://github.com/DIGOARTHUR/SAPIU5-CRUD#-por-quê--">Por quê?</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
  </p> 
 
 
@@ -67,9 +107,9 @@ apoiado na linguagem JavaScript. O Backend (API) foi desenvolvido utilizando o N
 
 ### Lógica 
 *  <a href="https://devdigoarthur.notion.site/Map-a87c73417a064372b122bf448f4c6ed4"> ![Alt ou título da imagem](https://img.shields.io/badge/-JavaScript-/?logo=JavaScript&logoColor=white&color=yellow)<a/>
-   * [`Map`](https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Reference/Global_Objects/Map) (Iteração com retorno de conteúdo trabalhado, com outro formato, contexto.)
-   * [`Spread`](https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Reference/Operators/Spread_syntax)(Método usado para fazer cópia de uma array já existente)
-   * [`Format Currency`](https://stackoverflow.com/questions/60011347/intl-numberformat-doesnt-convert-to-pt-br-locale)(Método para formatação de monetária)
+   * [`splice`](https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Reference/Global_Objects/Array/splice) (Método que altera uma lista, removendo ou adicionando elemento.)
+   * [`findIndex`](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/findIndex)(Método que filtra uma lista, trazendo o indice do primeiro elemento que satisfaz a condição.)
+   * [`find`](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/find)(Método que retorna o primeiro elemento que satisfação a condição.)
    
 
 
@@ -79,15 +119,15 @@ apoiado na linguagem JavaScript. O Backend (API) foi desenvolvido utilizando o N
    
 ### Framework / Lib
 <a href="https://sapui5.hana.ondemand.com/#/news"> ![Alt ou título da imagem](https://img.shields.io/badge/-SAPUI5-/?logo=SAP&logoColor=white&color=blue)<a/> 
-  * [`Model`](https://reactjs.org/docs/components-and-props.html) (Uso de componentes)
-  * [`View`](https://reactjs.org/docs/state-and-lifecycle.html) (Uso de hooks para controle de estado e ciclo de vida da aplicação)
-  * [`Controller`](https://reactjs.org/docs/state-and-lifecycle.html) (Recurso utilizado para passar atributos de um componente pai para outro componente filho)
+  * [`Model`](https://www.treinaweb.com.br/blog/o-que-e-mvc) (Camada responsável pela a regra de manipuação de dados.)
+  * [`View`](https://www.treinaweb.com.br/blog/o-que-e-mvc) (Camada visual)
+  * [`Controller`](https://www.treinaweb.com.br/blog/o-que-e-mvc) (Camada responsável por fazer a ligação entre o model e view, repassar os dados.)
 
 ### API
-<a href="https://sapui5.hana.ondemand.com/#/news"> ![Alt ou título da imagem](https://img.shields.io/badge/-NodeJS-/?logo=Node.JS&logoColor=white&color=green)<a/> 
-  * [`Model`](https://reactjs.org/docs/components-and-props.html) (Uso de componentes)
-  * [`View`](https://reactjs.org/docs/state-and-lifecycle.html) (Uso de hooks para controle de estado e ciclo de vida da aplicação)
-  * [`Controller`](https://reactjs.org/docs/state-and-lifecycle.html) (Recurso utilizado para passar atributos de um componente pai para outro componente filho)
+<a href="https://nodejs.org/en"> ![Alt ou título da imagem](https://img.shields.io/badge/-NodeJS-/?logo=Node.JS&logoColor=white&color=green)<a/> 
+  * [`Express`](https://www.treinaweb.com.br/blog/o-que-e-mvc) (Uso de componentes)
+        * [`Métodos HTTP`](https://medium.com/swlh/restful-api-design-get-post-put-patch-delete-a-walkthrough-with-javascripts-fetch-api-e37a8416e2a0) (POST, GET, DELETE)
+       
   
  ### Versionameto
  <a href="https://git-scm.com"> ![Alt ou título da imagem](https://img.shields.io/badge/-Git-/?logo=Git&logoColor=white&color=red)<a/> 
@@ -98,9 +138,6 @@ apoiado na linguagem JavaScript. O Backend (API) foi desenvolvido utilizando o N
 
   
 
-
-# <img  alt="skills"  width="40" height="40" src="https://user-images.githubusercontent.com/59892368/148622627-c1eaa513-ca90-49e2-b5b8-c11d369becef.png"> Por quê?  <!---write here : motivation that led to created ; why did you do this program?   -->
-Me convidaram para fazer este teste para uma promoção e eu aceitei. Foi um super desafio desenvolver neste Framework chamado SAP UI5, pois me especializo em REACTJS, e a estrutura de arquivos e a proposta de desenvolvimento são completamente diferentes. Não há muito material e a comunidade é bem escassa. Me baseei em vídeos estrangeiros e na própria documentação do Frame para concluir o que foi proposto. 
 
 
 # <img  alt="skills"  width="40" height="40" src="https://user-images.githubusercontent.com/59892368/148622723-8e753e71-6bbf-46c3-b1b5-4fcc3d841a88.png"> Algumas observações
@@ -158,43 +195,13 @@ git remote set-url origin <LinkDoNovoRepositorio>
 git remote -v
 ```
 
-<!--# Como inicializar um Projeto SAP UI5
 
-- Abra uma pasta e acesse o GitBash
+<!--WHY?-->
 
-git clone https://github.com/Daancustodio/sapui5-yeoman-generetor.git
-- acesse o arquivo do clone
+# <img  alt="skills"  width="40" height="40" src="https://user-images.githubusercontent.com/59892368/148622627-c1eaa513-ca90-49e2-b5b8-c11d369becef.png"> Por quê?  <!---write here : motivation that led to created ; why did you do this program?   -->
+Me convidaram para fazer este teste para uma promoção e eu aceitei. Foi um super desafio desenvolver neste Framework chamado SAP UI5, pois me especializo em REACTJS, e a estrutura de arquivos e a proposta de desenvolvimento são completamente diferentes. Não há muito material e a comunidade é bem escassa. Me baseei em vídeos estrangeiros e na própria documentação do Frame para concluir o que foi proposto. 
 
-### criar prototipo
 
-1- yarn global add yo
-
-2- npm link
-
-3- yarn
-
-4 - yo sapui-5-webapp
-
-cd ..
-
-git clone https://github.com/Daancustodio/ui5-cli.git
-- acesse o arquivo do clone
-- 
-### criar pagina
-1- yarn
-
-2- npm link
-
-3- yarn global add gluegun
-
-4- cd ..
-
-### executar criação de pagina
-1- pasta do projeto
-
-2- ui5 g p <nome-da-page>
-
--->
 
 
 
