@@ -6,6 +6,7 @@
 
 
 
+
     
 
 <p align="center">
@@ -33,15 +34,24 @@ A aplicação foi feita em duas partes: FrontEnd e Backend (API). O FrontEnd foi
 apoiado na linguagem JavaScript. O Backend (API) foi desenvolvido utilizando o NODEJS.
 
 #### Stacks:
+ <!------------------------------------STACKS-->
 <p align="left">
  
-<a href="https://code.visualstudio.com"> <img  alt="skills"  width="50" height="50" src="https://user-images.githubusercontent.com/59892368/150652026-e2ad0a27-a648-46fa-b640-d182d2e976b6.png"></a>
-  <a href="https://git-scm.com"> <img  alt="skills"  width="50" height="50" src="https://user-images.githubusercontent.com/59892368/149677999-f5947f0b-e535-4ba2-911c-1c5926045c35.png"></a>
-  <a href="https://sapui5.hana.ondemand.com"> <img  alt="skills"  width="50" height="50" src="https://user-images.githubusercontent.com/59892368/150575090-b35be7e3-1bd2-433b-a3ea-bbd8447a0895.png"></a>
-  <a href="https://developer.mozilla.org/pt-BR/docs/Web/HTML"> <img  alt="skills"  width="50" height="50" src="https://user-images.githubusercontent.com/59892368/149663188-8298a9bf-f3ce-4881-944f-e94edf37beed.png"></a>
-  <a href="https://developer.mozilla.org/pt-BR/docs/Web/JavaScript"> <img  alt="skills"  width="50" height="50" src="https://user-images.githubusercontent.com/59892368/149663192-19043371-127c-47f0-8553-0f407c51e2c5.png"></a>
-  <a href="https://nodejs.org/en/"> <img  alt="skills"  width="50" height="50" src="https://user-images.githubusercontent.com/59892368/149663190-ed2a92d6-6853-4884-845e-e780bfc49b55.png"></a>
+
+  <a href="https://developer.mozilla.org/pt-BR/docs/Web/HTML"><img  alt="HTML5"  width="50" height="50" src="https://user-images.githubusercontent.com/59892368/222955162-5b69600b-8953-45bd-9144-56fb3491d54e.svg"><a/>
+   <a href="https://developer.mozilla.org/pt-BR/docs/Web/CSS"><img  alt="CSS3"  width="50" height="50" src="https://user-images.githubusercontent.com/59892368/210762519-fc191098-1198-4668-9eb5-d0c1481da8c7.svg"><a/>
+  <a href="https://github.com/braziljs/eloquente-javascript"><img  alt="Javascript"  width="50" height="50" src="https://user-images.githubusercontent.com/59892368/210762520-8226f647-a814-4723-8e6d-ed0334550838.svg"><a/>
+    <a href="https://sapui5.hana.ondemand.com"> <img  alt="skills"  width="50" height="50" src="https://user-images.githubusercontent.com/59892368/225392225-d6495dff-8dc0-49d2-97ae-625c0ceb0e7a.svg"></a>
+   <a href="https://nodejs.org/en/"><img  alt="NodeJS"  width="50" height="50" src="https://user-images.githubusercontent.com/59892368/225148464-81734ea0-e787-4397-bd49-312264335a58.svg"><a/>
 </p>
+
+ <!------------------------------------TOOLS-->
+ #### Tools:
+ <a href="https://code.visualstudio.com/"><img  alt="Vscode"  width="50" height="50" src="https://user-images.githubusercontent.com/59892368/223381414-d3066c8b-c3ee-4fae-943d-481857e88000.svg"><a/>
+ <a href="https://git-scm.com/"><img  alt="Git"  width="50" height="50" src="https://user-images.githubusercontent.com/59892368/223381109-88617798-75ae-4f3a-bc4a-1210637f818c.svg"><a/>
+  <a href="https://yarnpkg.com"><img  alt="Yarn"  width="50" height="50" src="https://user-images.githubusercontent.com/59892368/197615074-2e78b82c-b853-455c-8920-272cf1ce6399.svg"><a/>   <a href="https://insomnia.rest/download"><img  alt="Insominia"  width="50" height="50" src="https://user-images.githubusercontent.com/59892368/153734890-e39524d5-25a3-4b93-8621-78cf0951e501.svg"><a/>
+
+
 
 
 # <img  alt="skills"  width="40" height="40" src="https://user-images.githubusercontent.com/59892368/149667468-f228e4e8-c2f0-474d-858d-6b9216f49b2f.png">  Interfaces <!---write here : demonstration of the application layout.  -->
@@ -50,18 +60,40 @@ apoiado na linguagem JavaScript. O Backend (API) foi desenvolvido utilizando o N
   # <img  alt="skills"  width="40" height="40" src="https://user-images.githubusercontent.com/59892368/150625390-bdc02d98-998e-46a4-a3b1-dffc8914c066.png">  API <!---write here : demonstration of the API -->
   <video  alt="gif_"  src="https://user-images.githubusercontent.com/59892368/150598647-a660c1af-d8d0-4b4c-8f53-271fa295b800.mp4"></video>
  
- ## <img  alt="skills"  width="40" height="40" src="https://user-images.githubusercontent.com/59892368/142231777-8c0e09fa-ac09-4654-89d6-6bb986bde09b.gif"> Pontos Principais: <!---write here: learned concepts ;    -->
+
+<!------------------------------------LIST: STACKS , LIBS & TOOLS-->
+
+## <img  alt="skills"  width="40" height="40" src="https://user-images.githubusercontent.com/59892368/197614534-e12fb94a-b5cf-44ff-8d57-debad7299b0b.png"> Stacks <!---write here: learned concepts; -->
+
+### Lógica 
+*  <a href="https://devdigoarthur.notion.site/Map-a87c73417a064372b122bf448f4c6ed4"> ![Alt ou título da imagem](https://img.shields.io/badge/-JavaScript-/?logo=JavaScript&logoColor=white&color=yellow)<a/>
+   * [`Map`](https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Reference/Global_Objects/Map) (Iteração com retorno de conteúdo trabalhado, com outro formato, contexto.)
+   * [`Spread`](https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Reference/Operators/Spread_syntax)(Método usado para fazer cópia de uma array já existente)
+   * [`Format Currency`](https://stackoverflow.com/questions/60011347/intl-numberformat-doesnt-convert-to-pt-br-locale)(Método para formatação de monetária)
+   
+
+
+   
+### Estilização 
+ <a href="https://developer.mozilla.org/pt-BR/docs/Web/CSS"> ![Alt ou título da imagem](https://img.shields.io/badge/-CSS3-/?logo=CSS3&logoColor=white&color=blue)<a/>
+   
+### Framework / Lib
+<a href="https://sapui5.hana.ondemand.com/#/news"> ![Alt ou título da imagem](https://img.shields.io/badge/-SAPUI5-/?logo=SAP&logoColor=white&color=blue)<a/> 
+  * [`Model`](https://reactjs.org/docs/components-and-props.html) (Uso de componentes)
+  * [`View`](https://reactjs.org/docs/state-and-lifecycle.html) (Uso de hooks para controle de estado e ciclo de vida da aplicação)
+  * [`Controller`](https://reactjs.org/docs/state-and-lifecycle.html) (Recurso utilizado para passar atributos de um componente pai para outro componente filho)
 
 ### API
-* NodeJS
-* Express
-* Uso do:
-  * Get
-  * Post
-  * Delete
+<a href="https://sapui5.hana.ondemand.com/#/news"> ![Alt ou título da imagem](https://img.shields.io/badge/-NodeJS-/?logo=Node.JS&logoColor=white&color=green)<a/> 
+  * [`Model`](https://reactjs.org/docs/components-and-props.html) (Uso de componentes)
+  * [`View`](https://reactjs.org/docs/state-and-lifecycle.html) (Uso de hooks para controle de estado e ciclo de vida da aplicação)
+  * [`Controller`](https://reactjs.org/docs/state-and-lifecycle.html) (Recurso utilizado para passar atributos de um componente pai para outro componente filho)
   
-### SAP UI5 
-> O SAPUI5 segue o paradigma "Model View Controller" (MVC), o que significa que separamos claramente as fontes de dados (modelo), a interface do usuário (visualização) e a lógica do aplicativo (controlador) entre si. A vinculação de dados define como os modelos e as visualizações se comunicam.
+ ### Versionameto
+ <a href="https://git-scm.com"> ![Alt ou título da imagem](https://img.shields.io/badge/-Git-/?logo=Git&logoColor=white&color=red)<a/> 
+ ### IDE
+ <a href="https://code.visualstudio.com"> ![Alt ou título da imagem](https://img.shields.io/badge/-VisualStudioCode-/?logo=VisualStudioCode&logoColor=white&color=informational)<a/>  
+
 
 
   
