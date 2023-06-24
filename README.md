@@ -96,10 +96,10 @@ apoiado na linguagem JavaScript. O Backend (API) foi desenvolvido utilizando o N
 
 
 # <img  alt="skills"  width="40" height="40" src="https://user-images.githubusercontent.com/59892368/149667468-f228e4e8-c2f0-474d-858d-6b9216f49b2f.png">  Interfaces <!---write here : demonstration of the application layout.  -->
-  <video  alt="gif_"  src="https://user-images.githubusercontent.com/59892368/150591428-4275885c-bec4-4856-8b23-24bb5ff00378.mp4"></video>
+ https://user-images.githubusercontent.com/59892368/150591428-4275885c-bec4-4856-8b23-24bb5ff00378.mp4
   
   # <img  alt="skills"  width="40" height="40" src="https://user-images.githubusercontent.com/59892368/150625390-bdc02d98-998e-46a4-a3b1-dffc8914c066.png">  API <!---write here : demonstration of the API -->
-  <video  alt="gif_"  src="https://user-images.githubusercontent.com/59892368/150598647-a660c1af-d8d0-4b4c-8f53-271fa295b800.mp4"></video>
+  https://user-images.githubusercontent.com/59892368/150598647-a660c1af-d8d0-4b4c-8f53-271fa295b800.mp4
  
 
 <!------------------------------------LIST: STACKS , LIBS & TOOLS-->
